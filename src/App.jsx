@@ -23,7 +23,7 @@ function App() {
   return (
     <div>
       <h1>Dictionary App</h1>
-      <input ref={inp} style={{height:'30px'}} placeholder='Search for a word...'></input>
+      <input type="text" ref={inp} style={{height:'30px'}} placeholder='Search for a word...'></input>
       <button onClick={handler}>Search</button>
       <h2>Definition:</h2>
       <p>{text}</p>
