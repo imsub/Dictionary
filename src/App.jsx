@@ -13,7 +13,7 @@ function App() {
   const inp = useRef(null);
   const handler = (e)=>{
     console.log(e,inp);
-    setText("Word not found in dictionary.");
+    setText("Word not found in the dictionary.");
     data.forEach((val)=>{
       if(val.word.toLowerCase() === inp.current.value.toLowerCase()){
         setText(val.meaning);
